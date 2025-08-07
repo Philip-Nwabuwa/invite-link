@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[#7c3bed] text-white">
       <div className="max-w-7xl mx-auto w-full flex flex-col items-center px-4 py-8">
-        <div className="bg-orange-500 w-fit rounded-full px-6 py-2 text-center mb-4">
+        <div className="bg-[#ff8f2e] w-fit rounded-full px-6 py-2 text-center mb-4">
           <span className="text-white font-bold text-lg flex items-center justify-center gap-2">
             <Star className="w-4 h-4 fill-white" /> CHAMPIONS CONNECT{" "}
             <Star className="w-4 h-4 fill-white" />
@@ -63,12 +63,12 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="relative space-y-6">
-            <div className="absolute top-0 right-0 bg-gradient-to-r from-[#fb923c] to-[#a855f7] text-white px-4 py-2 rounded-bl-2xl rounded-tr-2xl text-xs font-bold">
-              EARLY BIRD
-              <div className="text-xs">Ends 15th Sept</div>
-            </div>
-            <div className="bg-white rounded-2xl p-6 shadow-lg text-black">
+          <div className="space-y-6">
+            <div className="bg-white rounded-2xl p-6 shadow-lg text-black relative hover:scale-105 transition-all duration-500">
+              <div className="absolute top-0 right-0 bg-gradient-to-r from-[#fb923c] to-[#a855f7] text-white px-4 py-2 rounded-bl-2xl rounded-tr-2xl text-xs font-bold">
+                EARLY BIRD
+                <div className="text-xs">Ends 15th Sept</div>
+              </div>
               <div className="mb-4">
                 <h3 className="text-[#9a3cdd] text-2xl font-bold mb-2 flex items-center gap-2">
                   <Star className="size-5 fill-[#9a3cdd]" /> PREMIUM
@@ -93,12 +93,12 @@ export default function Home() {
                 </div>
               </div>
 
-              <button className="w-full bg-[#9a3cdd] text-white py-3 px-6 rounded-2xl font-bold text-lg hover:bg-purple-700 transition-colors flex items-center justify-center gap-2">
+              <button className="w-full bg-[#9a3cdd] text-white py-3 px-6 rounded-2xl font-bold text-lg hover:bg-[#9a3cdd]/80 transition-colors flex items-center justify-center gap-2 cursor-pointer">
                 <Ticket className="size-5" /> BOOK PREMIUM
               </button>
             </div>
 
-            <div className="bg-white rounded-2xl p-6 shadow-lg text-black relative">
+            <div className="bg-white rounded-2xl p-6 shadow-lg text-black relative hover:scale-105 transition-all duration-500">
               <div className="absolute top-0 right-0 bg-gradient-to-r from-[#fb923c] to-[#a855f7] text-white px-4 py-2 rounded-bl-2xl rounded-tr-2xl text-xs font-bold">
                 EARLY BIRD
                 <div className="text-xs">Ends 15th Sept</div>
@@ -126,7 +126,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <button className="w-full bg-[#6d57db] text-white py-3 px-6 rounded-2xl font-bold text-lg hover:bg-purple-700 transition-colors flex items-center justify-center gap-2">
+              <button className="w-full bg-[#6d57db] text-white py-3 px-6 rounded-2xl font-bold text-lg hover:bg-[#6d57db]/80 transition-colors flex items-center justify-center gap-2 cursor-pointer">
                 <Ticket className="size-5" /> BOOK GENERAL
               </button>
             </div>
