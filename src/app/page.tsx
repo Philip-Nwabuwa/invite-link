@@ -2,10 +2,16 @@ import { Calendar, MapPin, Star, Ticket } from "lucide-react";
 import Image from "next/image";
 
 import RoboticHand from "@/assets/images/robot-hand.jpg";
+import Logo from "@/assets/images/logo.png";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-[#7c3bed] text-white">
+      <nav className="bg-white sticky top-0 z-50 items-center justify-between px-6 py-4">
+        <div className="max-w-7xl mx-auto">
+          <Image src={Logo} alt="Logo" width={100} height={100} />
+        </div>
+      </nav>
       <div className="max-w-7xl mx-auto w-full flex flex-col items-center px-6 py-8">
         <div className="bg-[#ff8f2e] w-fit rounded-full px-6 py-2 text-center mb-4">
           <span className="text-white font-extrabold text-lg flex items-center justify-center gap-2">
