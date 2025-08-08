@@ -1,5 +1,6 @@
 import { Calendar, MapPin, Star, Ticket } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 import RoboticHand from "@/assets/images/robot-hand.jpg";
 import Logo from "@/assets/images/logo.png";
@@ -99,9 +100,14 @@ export default function Home() {
                 </div>
               </div>
 
-              <button className="w-full bg-[#9a3cdd] text-white py-3 px-6 rounded-2xl font-bold text-lg hover:bg-[#9a3cdd]/80 transition-colors flex items-center justify-center gap-2 cursor-pointer">
+              <Link
+                href="https://buy.stripe.com/eVqeV5dupaDF9se85dejK01"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full bg-[#9a3cdd] text-white py-3 px-6 rounded-2xl font-bold text-lg hover:bg-[#9a3cdd]/80 transition-colors flex items-center justify-center gap-2 cursor-pointer text-center"
+              >
                 <Ticket className="size-5" /> BOOK PREMIUM
-              </button>
+              </Link>
             </div>
 
             <div className="bg-white rounded-2xl py-3 px-4 shadow-lg text-black relative hover:scale-105 transition-all duration-500">
@@ -112,7 +118,7 @@ export default function Home() {
 
               <div className="mb-2">
                 <h3 className="text-[#6d57db] text-xl font-bold mb-2 flex items-center gap-2">
-                  <Star className="size-5 fill-[#6d57db]" /> GENERAL
+                  <Star className="size-5 fill-[#6d57db]" /> REGULAR
                 </h3>
                 <p className="text-[#6d57db]">Full Event Access</p>
               </div>
@@ -132,9 +138,14 @@ export default function Home() {
                 </div>
               </div>
 
-              <button className="w-full bg-[#6d57db] text-white py-3 px-6 rounded-2xl font-bold text-lg hover:bg-[#6d57db]/80 transition-colors flex items-center justify-center gap-2 cursor-pointer">
-                <Ticket className="size-5" /> BOOK GENERAL
-              </button>
+              <Link
+                href="https://buy.stripe.com/00w3cncqlcLNbAm99hejK00"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full bg-[#6d57db] text-white py-3 px-6 rounded-2xl font-bold text-lg hover:bg-[#6d57db]/80 transition-colors flex items-center justify-center gap-2 cursor-pointer text-center"
+              >
+                <Ticket className="size-5" /> BOOK REGULAR
+              </Link>
             </div>
           </div>
         </div>
