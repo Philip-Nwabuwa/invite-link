@@ -12,16 +12,16 @@ export default function Home() {
           <Image src={Logo} alt="Logo" width={100} height={100} />
         </div>
       </nav>
-      <div className="max-w-7xl mx-auto w-full flex flex-col items-center px-6 py-8">
-        <div className="bg-[#ff8f2e] w-fit rounded-full px-6 py-2 text-center mb-4">
+      <div className="max-w-7xl mx-auto w-full flex flex-col items-center px-6 py-6">
+        <div className="bg-[#ff8f2e] w-fit rounded-full px-6 py-2 text-center mb-3">
           <span className="text-white font-extrabold text-lg flex items-center justify-center gap-2">
             <Star className="w-4 h-4 fill-white" /> CHAMPIONS CONNECT{" "}
             <Star className="w-4 h-4 fill-white" />
           </span>
         </div>
 
-        <div className="text-center mb-5">
-          <h1 className="text-3xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-[#fff] via-[#ff8f2e] to-[#ff8f2e] text-transparent bg-clip-text">
+        <div className="text-center mb-3">
+          <h1 className="text-3xl md:text-5xl font-bold mb-3 bg-gradient-to-r from-[#fff] via-[#ff8f2e] to-[#ff8f2e] text-transparent bg-clip-text">
             FROM AMBITION TO ACTION
           </h1>
           <p className="text-lg md:text-xl font-bold text-white uppercase tracking-wide">
@@ -30,7 +30,7 @@ export default function Home() {
         </div>
 
         <div className="w-full grid grid-cols-1 lg:grid-cols-2 justify-center items-center gap-4 md:gap-8">
-          <div className="space-y-6">
+          <div className="space-y-4">
             <div className="bg-white/20 backdrop-blur-sm rounded-xl h-[150px] md:h-[250px] p-4 flex items-center justify-center border border-white/30">
               <Image
                 src={RoboticHand}
@@ -69,14 +69,14 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="space-y-6">
-            <div className="bg-white rounded-2xl p-4 md:p-6 shadow-lg text-black relative hover:scale-105 transition-all duration-500">
+          <div className="space-y-4">
+            <div className="bg-white rounded-2xl py-3 px-4 shadow-lg text-black relative hover:scale-105 transition-all duration-500">
               <div className="absolute top-0 right-0 bg-gradient-to-r from-[#fb923c] to-[#a855f7] text-white px-4 py-2 rounded-bl-2xl rounded-tr-2xl text-xs font-bold">
                 EARLY BIRD
                 <div className="text-xs">Ends 15th Sept</div>
               </div>
-              <div className="mb-3 md:mb-4">
-                <h3 className="text-[#9a3cdd] text-2xl font-bold mb-2 flex items-center gap-2">
+              <div className="mb-2">
+                <h3 className="text-[#9a3cdd] text-xl font-bold mb-2 flex items-center gap-2">
                   <Star className="size-5 fill-[#9a3cdd]" /> PREMIUM
                 </h3>
                 <p className="text-[#9a3cdd]">
@@ -84,8 +84,8 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="mb-3 md:mb-6">
-                <div className="flex flex-col items-baseline space-x-2 mb-2">
+              <div className="mb-2">
+                <div className="flex items-baseline space-x-2 mb-2">
                   <span className="text-gray-500 line-through text-lg">
                     £53.33
                   </span>
@@ -104,21 +104,21 @@ export default function Home() {
               </button>
             </div>
 
-            <div className="bg-white rounded-2xl p-4 md:p-6 shadow-lg text-black relative hover:scale-105 transition-all duration-500">
+            <div className="bg-white rounded-2xl py-3 px-4 shadow-lg text-black relative hover:scale-105 transition-all duration-500">
               <div className="absolute top-0 right-0 bg-gradient-to-r from-[#fb923c] to-[#a855f7] text-white px-4 py-2 rounded-bl-2xl rounded-tr-2xl text-xs font-bold">
                 EARLY BIRD
                 <div className="text-xs">Ends 15th Sept</div>
               </div>
 
-              <div className="mb-3 md:mb-4">
-                <h3 className="text-[#6d57db] text-2xl font-bold mb-2 flex items-center gap-2">
+              <div className="mb-2">
+                <h3 className="text-[#6d57db] text-xl font-bold mb-2 flex items-center gap-2">
                   <Star className="size-5 fill-[#6d57db]" /> GENERAL
                 </h3>
                 <p className="text-[#6d57db]">Full Event Access</p>
               </div>
 
-              <div className="mb-3 md:mb-6">
-                <div className="flex flex-col items-baseline space-x-2 mb-2">
+              <div className="mb-2">
+                <div className="flex items-baseline space-x-2 mb-2">
                   <span className="text-gray-500 line-through text-lg">
                     £33.33
                   </span>
